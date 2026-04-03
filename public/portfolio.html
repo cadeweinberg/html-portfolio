@@ -5,42 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
 </head>
-<header>
-    <a href="../index.html"><img src="../assets/photos/cade_weinberg_selfie.jpg" alt="a photo of cade weinberg" height="100" /></a>
-    <a href="../index.html">Resume</a>
-    <a href="./contact.html">Contact</a>
-    <a href="./hobbies.html">Hobbies</a>
-    <a href="./education.html">Education</a>
-    <a href="./work_history.html">Work History</a>
-    <a href="./skills.html">Skills</a>
-    <a href="./portfolio.html">Portfolio</a>
-    <hr />
-</header>
 <body>
-<h1>Portfolio</h1>
-<h2>exp</h2>
-<p>exp is a basic c inspired programming langauge of my own design, <br />
-    which I wrote the compiler, 'exp', for. <br />
-    I created this langauge and compiler in order to have a place to learn about how compilers 
-    work. <br />
-    The langauge itself is minimalistic to say the least, it only supports one integer type, <br/>
-    function definitions and function calls, as well as a tuple type which is it's most <br />
-    recent addition.
-    You are welcome to take a <a href="https://github.com/cadeweinberg/exp">look</a> if you like. <br />
-    Though it's probably fairly amateurish in terms of design and implementation. <br />
-    I think the most impressive thing about the project is that I wrote it in C, with no libraries. <br />
-</p>
-<h2>tbc</h2>
-<p>
-    tbc, the Tiny Bytecode Compiler, is a project to allow something like exp to run on the web <br />
-    where i can show it off to other easily. it has the same basic structure as exp as a bytecode compiler <br />
-    However, instead of a translation pass into x86_64 assembly it only has a bytecode interpreter. <br />
-    The new part of this is that we can easily compile the bytecode interpreter to web assembly and run it in the browser, <br />
-    where you can play with it! <br />
-    <a href="./tbc.html">tbc</a>
-</p>
+    <header>
+        <a href="../index.html"><img src="../assets/photos/cade_weinberg_selfie.jpg" alt="a photo of cade weinberg" height="100" /></a>
+        <a href="../index.html">Resume</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./hobbies.html">Hobbies</a>
+        <a href="./education.html">Education</a>
+        <a href="./work_history.html">Work History</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <hr />
+    </header>
+    <h1>Portfolio</h1>
+    <ul>
+        <li>
+            <h2>Limnmedia</h2>
+             <ul>
+                 <li>TPS</li>
+                 <li>DBox</li>
+                 <li>Virtual Produino</li>
+             </ul>
+        </li>
+        <li>
+            <h2>Compilers</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/cadeweinberg/exp"><h3>exp: a programming langauge and compiler</h3></a>
+                    <p>
+                        exp is a basic c inspired programming langauge of my own design, which I wrote the compiler, <br />
+                        'exp', for. I created this langauge and compiler in order to have a place to learn about how
+                        code generation works. As I have written several 'toy' compilers before targeting LLVM or simply interpreting the language <br />
+                        I think the most impressive thing about the project is that I wrote it in C, with only the standard library. <br />
+                        You are welcome to take a <a href="https://github.com/cadeweinberg/exp">look</a> if you like. <br />
+                    </p>
+                </li>
+                <li>
+                    <a href="https://github.com/cadeweinberg/tbc"><h3>tbc: tiny bytecode compiler</h3></a>
+                    <p>
+                        tbc, (or Tiny Bytecode Compiler), is a project to allow something like exp to run on the web. <br />
+                        where I can show it to people easily and they can interact with it. it has the same basic structure <br />
+                        as exp, as a bytecode compiler. However, instead of a translation pass into x86_64 assembly it only <br />
+                        has a bytecode interpreter. The new part of this is that we can compile the bytecode interpreter <br />
+                        to web assembly and run it in the browser which is <a href="./tbc.html">exactly what I did!</a> <br />
+                    </p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h2>TPS: Three Point System</h2>
+    <footer>
+        © Cade Weinberg 2026
+    </footer>
 </body>
-<footer>
-    © Cade Weinberg 2026
-</footer>
 </html>
